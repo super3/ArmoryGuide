@@ -1,0 +1,28 @@
+{{! The post content }}
+
+<div class="row marginbottom">
+
+<!--        <div class="small-12 large-2 columns">
+       <div class="info">
+        <p class="day">{{date published_at format="dddd"}}</p>
+        <h3>{{date published_at format="DD"}}</h3>
+        <p class="month">{{date published_at format="MMMM YYYY"}}</p>
+        </div>
+        </div> -->
+
+
+      <div class="small-12 large-11 columns">
+      <div class="maincontent">
+      <article class="{{post_class}}">
+      <h2 class="post_title"><span><a href="{{url}}" title="{{title}}">{{title}}</a></span></h2>
+      <p class="written">by {{author.name}}</p>
+     
+      <!-- <div class="featured">{{content words="0"}}</div> -->
+      <p>{{content words="102"}}</p>
+
+       <div class="more"><a href="/{{slug}}" title="{{title}}">Read More</a></div> 
+      </article>
+      </div>
+      </div>
+   
+   </div>

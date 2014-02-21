@@ -1,0 +1,18 @@
+{{!< default}}
+
+{{! The main post }}
+
+<div class="row {{#if @blog.cover}}margintop{{/if}}">
+   <div class="small-12 large-9 columns">
+
+    {{#post}}
+     {{> full-post}} 
+    {{/post}}
+
+    </div>
+
+    <div class="small-12 large-3 columns">
+    {{> sidebar}}
+    </div>
+
+</div>

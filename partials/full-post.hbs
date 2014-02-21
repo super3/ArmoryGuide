@@ -1,0 +1,58 @@
+{{! The post content }}
+
+<div class="row marginbottom">
+
+<!--        <div class="small-12 large-2 columns">
+      <div class="info">
+        <p class="day">{{date published_at format="dddd"}}</p>
+        <h3>{{date published_at format="DD"}}</h3>
+        <p class="month">{{date published_at format="MMMM YYYY"}}</p>
+        </div>
+        </div> -->
+
+
+      <div class="small-12 large-11 columns">
+      <div class="maincontent">
+      <article class="{{post_class}} full-post">
+      <h2 class="post_title"><span><a href="{{url}}" title="{{title}}">{{title}}</a></span></h2>
+      <p class="written">by {{author.name}}</p>
+       {{content}}
+
+      {{! Share Buttons }} 
+ <div class="share_buttons">
+
+<ul>
+<li> <p class="share_text">Share</p></li>
+<li><a href="http://www.facebook.com/share.php?u={{url absolute="true"}}" target="_blank"><img src="/assets/images/share/facebook.png" alt="Facebook"/></a></li>
+<li>
+ <a href="http://twitter.com/share?text={{title}}&url={{url absolute="true"}}" target="_blank"><img src="/assets/images/share/twitter.png" alt="Twitter"></a></li>
+<li><a href="https://plus.google.com/share?url={{url absolute="true"}}" onClick="javascript:window.open(this.href,&#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=620&#39;);return false;"><img class="no-preload" src="/assets/images/share/google_plus.png" alt="google-share"></a></li>
+</ul> 
+
+</div>
+
+{{#if author}}
+<div class="authorinfo" {{#if author.cover}}style="background-image: url({{author.cover}})"{{/if}}>
+<div class="row">
+<div class="small-12 columns">
+
+{{#if author.image}}
+ <img src="{{author.image}}" alt="{{author.name}}" class="alignleft"/>
+ {{/if}}
+
+ <p class="author-name"><a href="mailto:{{author.email}}">{{author.name}}</a></p>
+
+ {{#if author.bio}}
+<p>{{author.bio}}</p>
+   {{/if}}
+
+</div>
+</div>
+</div>
+   {{/if}}
+
+      </article>
+      </div>
+      </div>
+   
+   </div>

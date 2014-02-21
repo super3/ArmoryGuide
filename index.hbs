@@ -1,0 +1,112 @@
+{{!< default}}
+
+{{! The main content area on the homepage }}
+
+<div class="row {{#if @blog.cover}}margintop{{/if}}">
+  <div class="small-12 large-9 columns">
+    <div class="row marginbottom">
+
+      <!-- <div class="small-12 large-2 columns">
+        <div class="info">
+          <p class="day">Friday</p>
+          <h3>14</h3>
+          <p class="month">February 2014</p>
+        </div>
+      </div> -->
+
+      <div class="small-12 large-11 columns">
+        <div class="maincontent">
+          <article class="post tag-getting-started featured full-post">
+
+            <h2 class="post_title"><span><a href="/welcome-to-ghost/" title="Welcome to Armory Guide!">Welcome to Armory Guide!</a></span></h2>
+            <p class="written">by Shawn Wilkinson</p>
+            <p><img src="assets/images/bitcoin_wall-1.jpg" alt=""></p>
+
+            <p>Let's start off with a joke that was told at <a href="http://www.cryptocurrencycon.com/">Crypto Currency Conference</a> 2013 in Atlanta. It goes something like this. </p>
+
+            <blockquote>  
+              <p><strong>Ted:</strong> How much for that BMW? <br>
+              <strong>Sam:</strong> 2 Bitcoins. <br>
+              <strong>Ted:</strong> That much?! <br>
+              <strong>Sam:</strong> It's a big company. </p>
+            </blockquote>
+
+            <p>We are not there yet, but we could be in a couple of years. This is where the security part comes in. I'm sure you would hate to be the guy or gal that <a href="http://www.reddit.com/r/Bitcoin/comments/1bd1d1/i_think_i_just_lost_90btc_are_they_stolen_help/">lost 90 BTC</a> or had <a href="http://www.reddit.com/r/Bitcoin/comments/1czrua/just_lost_160_btc_from_address_managed_with/">160 BTC stolen</a>. </p>
+
+            <p><strong>Security is why this website exists.</strong> Here we will help you to setup <a href="https://bitcoinarmory.com/">Bitcoin Armory</a>, the most secure Bitcoin wallet out there. We will also cover some of the awesome features that it has to offer, as well as discuss Bitcoin security with members of the community. </p>
+
+
+            <hr><h4><a href="/step-1-installing-bitcoin-qt/">Step #1: Installing Bitcoin-Qt</a></h4>
+            <p><a href="http://bitcoin.org">Bitcoin-Qt</a> is the default client for the Bitcoin network. Rather than reinvent the wheel, Bitcoin Armory uses the Bitcoin-Qt client in the background. So, we have to install and run the Bitcoin-Qt client first.</p>
+            <p><img src="assets/images/step1.jpg" alt="Bitcoin-Qt Thumb"></p>
+
+            <hr><h4><a href="http://armoryguide.com/step-2-installing-bitcoin-armory/">Step #2: Installing Bitcoin Armory</a></h4>
+            <p>Now we can get to the fun part, installing <a href="http://bitcoinarmory.com">Bitcoin Armory</a>. This guide will cover the steps for setting up the client for the first time. </p>
+            <p><img src="assets/images/step2.jpg" alt="Armory Logo"></p>
+
+            <hr><h4><a href="http://armoryguide.com/setting-up-a-test-wallet/">Step #3: Setting up a Test Wallet</a></h4>
+            <p>To verify that everything is working properly we are going to setup a test wallet. </p>
+            <p><img src="assets/images/step3.jpg" alt="Test Wallet"></p>
+
+            <hr><h4><a href="http://armoryguide.com/receiving-bitcoin/">Step #4: Receiving Bitcoin</a></h4>
+            <p>Guide to receiving Bitcoin, and resources for getting free Bitcoin. <br>  
+            <img src="assets/images/step4.jpg" alt="Address"></p>
+
+            <hr><h4><a href="http://armoryguide.com/restoring-test-wallet/">Step #5: Restoring Test Wallet</a></h4>
+            <p>To test our paper wallet backups, we will delete and restore our test wallet.<br>  
+            <img src="assets/images/step5.jpg" alt="Root key"></p>
+
+            <hr><h4><a href="http://armoryguide.com/sending-bitcoin/">Step #6: Sending Bitcoin</a></h4>
+            <p>Final step in the beginners guide. We will test out sending Bitcoin to another person. <br>  
+            <img src="assets/images/step6.jpg" alt="Confirmation"></p>
+
+
+            <div class="donations">
+              <h2 id="donations">Donations</h2>
+
+              <p>Please let us know in the comments section what info you have found useful and how we can improve this guide. We want to add more content this site and additional guides on advanced features, such as cold storage. Please consider a small donation if you would like to support our efforts.</p>
+
+              <p><strong>Bitcoin Donation Address: 1HCH2KCZW4oWJ6VaTwGK5kFZxU1baKjdZY</strong></p>     
+            </div>
+
+            <div class="share_buttons">
+              <ul>
+                <li> <p class="share_text">Share</p></li>
+                <li><a href="http://www.facebook.com/share.php?u={{url absolute="true"}}" target="_blank"><img src="/assets/images/share/facebook.png" alt="Facebook"/></a></li>
+                <li>
+                 <a href="http://twitter.com/share?text={{title}}&url={{url absolute="true"}}" target="_blank"><img src="/assets/images/share/twitter.png" alt="Twitter"></a>
+                </li>
+                <li><a href="https://plus.google.com/share?url={{url absolute="true"}}" onClick="javascript:window.open(this.href,&#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=320,width=620&#39;);return false;"><img class="no-preload" src="/assets/images/share/google_plus.png" alt="google-share"></a></li>
+              </ul> 
+            </div>
+
+            <div class="authorinfo">
+              <div class="row">
+                <div class="small-12 columns">
+                  <p class="author-name">
+                    <a href="mailto:me@super3.org">Shawn Wilkinson</a>
+                  </p>
+                  <p>Bitcoin Developer and Crypto-Currency Evangelist.</p>
+                </div>
+              </div>
+            </div>
+         
+          </article>
+        </div>
+      </div>
+         
+    </div>
+
+  </div>
+
+  <div class="small-12 large-3 columns">
+    {{> sidebar}}
+  </div>
+
+</div>
+
+<!-- <div class="row">
+  <div class="small-12 columns">
+    {{pagination}}
+  </div>
+</div> -->

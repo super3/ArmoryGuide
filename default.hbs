@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--[if IE 8]>               <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  {{! Document Settings }}  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  {{! Page Meta }}
+  <title>{{meta_title}}</title>
+  <meta name="description" content="{{meta_description}}" />
+
+  {{! Favicon }}
+  <link rel="shortcut icon" href="/assets/images/icons/favicon.png" />
+  
+  {{! RSS }}
+  <link rel="alternate" type="application/rss+xml" title="{{@blog.title}} » Feed" href="/rss">
+
+  {{! Styles'n'Scripts }}
+  <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,500italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/foundation.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  
+
+  <script src="/assets/js/vendor/custom.modernizr.js"></script>
+
+  {{ghost_head}}
+</head>
+
+<body class="{{body_class}}">
+
+    <div class="header" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+
+    {{! Top Bar }}
+  <div class="top">
+    <div class="row">
+     <div class="small-12 columns">
+<!--       <ul class="social">
+      <li><a href="" title="facebook" target="_blank"><img src="/assets/images/icons/facebook.png" alt="facebook"></a></li>
+      <li><a href="" title="twitter" target="_blank"><img src="/assets/images/icons/twitter.png" alt="twitter"></a></li>
+      <li><a href="" title="pinterest" target="_blank"><img src="/assets/images/icons/pinterest.png" alt="pinterest"></a></li>
+      <li><a href="{{@blog.url}}/rss" title="rss" target="_blank"><img src="/assets/images/icons/rss.png" alt="rss"></a></li>
+      </ul> -->
+    </div>
+
+</div>
+</div>
+
+{{! Logo }}
+
+    <div class="row">
+    <div class="small-12 columns">
+      <a class="logo-link" href="{{@blog.url}}">
+        <!--<h1 class="text-center logo">
+        {{#if @blog.logo}}
+        <img src="{{@blog.logo}}" alt="{{@blog.title}}"/>
+        {{else}}
+        {{@blog.title}}
+        {{/if}}
+        </h1> -->
+        <div class="logo"></div>
+      </a>
+     
+     <p class="text-center motto">Helping new and intermediate users secure their Bitcoins!</p>
+    </div>
+  </div>
+
+</div>
+
+    {{{body}}}
+
+   <footer class="row">
+    <div class="small-12 columns">
+      <div class="row">
+        <div class="small-12 columns">
+          <p class="footer text-center">Copyright © 2014 Armory Guide - All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    {{ghost_foot}}
+
+    {{! The JavaScript files for Quarter }}
+    {{! FancyBox support }}
+    <link rel="stylesheet" href="/assets/js/vendor/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen">
+    <script type="text/javascript" src="/assets/js/vendor/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="/assets/js/custom.js"></script>
+
+</body>
+</html>

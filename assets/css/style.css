@@ -1,0 +1,180 @@
+body { background: #fff; font-family: "Roboto", Arial, sans-serif;  font-weight: normal; font-style: normal; font-size: 16px; line-height: 1; color: #2F2F2F; position: relative; -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 700; font-style: normal; text-transform:uppercase; color: #34495e; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 12px; margin-top: 12px; font-family: 'Roboto Slab', Georgia, serif; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #bdc3c7; line-height: 0; }
+
+h1 { font-size: 44px; }
+
+h2 { font-size: 34px; }
+
+h3 { font-size: 27px; }
+
+h4 { font-size: 23px; }
+
+h5 { font-size: 17px; }
+
+h6 { font-size: 14px; }
+
+a { color: #f8b526; text-decoration: none; line-height: inherit; font-weight:400;}
+
+a:hover { color: #f8b526; text-decoration:underline;}
+
+a:focus { color: #f8b526; }
+
+h4 a { font-weight:700; text-decoration:underline;}
+
+p { font-family: inherit; font-size: 16px; margin-bottom: 20px; color: #7f8c8d; font-weight:300; line-height:32px;}
+
+strong { color: #34495e;}
+
+hr {border: 2px solid #F5F5F5;}
+
+iframe {margin: 10px 0 15px; border:0; width:100%;}
+
+.margintop {margin-top: 40px;}
+
+/* Top Bar  ---------------------- */
+.top {width: 100%;background: #f8b526;padding: 0;height: 6px;}
+
+/* Lists ---------------------- */
+ul.social { display:none; list-style: none; padding: 0; margin: 0 auto; text-align: center;}
+ul.social li { float:left; display:inline; padding: 4px 10px; border-right: 1px solid #E4E5E7}
+ul.social li:first-child { padding-left: 0; }
+ul.social li:last-child { border-right: 0 }
+
+
+/* Header  ---------------------- */
+h1.logo { font-size: 58px; padding: 40px 0 0; font-weight: 700; color: #34495e; text-decoration:none !important;} 
+.logo { background-image: url(../images/logo.png);background-repeat: no-repeat;height: 80px;background-position: center;margin-top: 40px;}
+.logo-link { text-decoration:none !important;}
+p.motto { font-size: 17px; font-weight:400; color: #34495e; font-family: "Roboto Slab"; margin-bottom:40px; }
+
+.header { background-image: url(../images/header.jpg) !important; background-position:center center;}
+ 
+
+/* Post ---------------------- */
+.info {padding: 5px 0px; display:none;}
+.info p{margin: 0; padding: 0; font-size: 11px; color:#B8B8B8; letter-spacing:3px}
+.info h3{margin: 0; padding: 0; font-size: 54px; font-weight: 700; text-align: right; color:#ecf0f1;}
+.info h3 a{color: #ecf0f1; }
+.day, .month {text-transform: uppercase; text-align: right}
+
+ article {margin-bottom:120px;}
+ article.full-post {margin-bottom:50px;}
+ article h1, article h2, article h3, article h4, article h5, article h6 {padding:20px 0 0;}
+ article img { margin:20px 0; }
+/* article h2 {padding:0; margin:0;}*/
+ article h2 a {font-size:32px; font-weight:600; color: #f8b526; text-decoration:none !important;}
+ article h2 span:hover {color: #f8b526; border-bottom: 2px solid #f8b526; text-decoration:none !important;}
+ article ul {padding-left:16px;}
+ article ol {padding-left:20px;} 
+
+.post_title {font-weight:normal;	margin:0;	padding:0;	margin-bottom:11px;	color: #2F2F2F;	border-bottom: 0; text-decoration:none; padding-bottom:0px !important;}
+.post_title span {font-size:36px; line-height:1.3; border-bottom: 2px solid #f8b526; display:inline-block; text-decoration:none; font-family: 'Roboto Slab', Georgia, serif; font-weight: 700}
+p.written {font-size: 14px; text-transform: uppercase; color: #7f8c8d; font-weight: 400; margin-bottom: 15px;}
+
+
+.alignright {    float:right;    margin: 5px 0 20px 20px;}
+.alignleft {    float: left;    margin: 5px 20px 20px 0;}
+
+.more {margin:50px 0; text-align:left;}
+.more a {padding: 18px 23px; border: 3px solid #f8b526; text-transform: uppercase; font-family: 'Roboto Slab';font-size: 16px; text-decoration:none; -webkit-transition: 100ms; -moz-transition: 100ms; -ms-transition: 100ms; -o-transition: 100ms; transition: 100ms;}
+.more a:hover {border: 3px solid #f8b526; background:#f8b526; color:#fff;}
+
+/* Author Box */
+
+/*.authorinfo {background:#fafafa; padding:30px; }*/
+.author-name {font-size: 14px;text-transform: uppercase;color: #bdc3c7;font-weight: 400;margin-bottom: 16px;}
+.author-name span {font-size:13px; color:##bdc3c7; font-weight: normal; }
+.authorinfo p {margin-bottom:0;}
+.author-website {text-transform:lowercase;}
+
+/* Social share */
+   .share_buttons { border-top: 2px solid #F5F5F5; border-bottom: 2px solid #F5F5F5;padding: 10px 0; overflow:hidden; margin:10px 0 30px;}
+   .share_buttons ul { no-repeat 8% 50%; margin:0; padding:0; list-style:none; float:left;}
+   .share_buttons ul li { float:left; margin-right:5px; margin-bottom:5px; padding:0;}
+   .share_buttons ul li img { display:block; }
+   .share_text { font-family: 'Roboto Slab'; margin: 20px 20px 20px 0;}
+
+/* Donations */
+   .donations {border-top: 2px solid #F5F5F5;padding: 10px 0;overflow: hidden;}
+
+/* Blockquotes ---------------------- */
+
+.maincontent blockquote p {font-family: 'Roboto Slab', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-size:16px; margin-bottom:30px; color: #bdc3c7; font-weight:400; border-left:none;}
+.featured blockquote {display: none;}
+
+
+/* Sidebar  ---------------------- */
+
+.row.sidebar {margin-bottom:20px; padding:0}
+.row.sidebar h4 { margin:10px 0 7px; padding:6px 0; font-weight:700; font-size:21px; color:#34495e; font-family: "Roboto Slab", serif;}
+.row.sidebar h5 { color:#34495e; margin-top:35px;}
+.row.sidebar h4 a {color:#fff;}
+.row.sidebar .textwidget {padding:0; margin:0; line-height:1.4;}
+
+/* Sidebar Unordered List  ---------------------- */
+.row.sidebar ul { list-style: none; margin:0; padding:0 }
+.row.sidebar ul li { display: block; padding: 8px 0px; font-size: 16px; font-weight: 300; color: #f8b526;}
+/*.row.sidebar ul li:hover { background:#2f2f2f; color:#fff}*/
+.row.sidebar ul li a { color:#f8b526}
+/*.row.sidebar ul li:hover a { color:#fff}*/
+
+/* Standard Forms ---------------------- */
+form { margin: 0 20px 0 0; padding:9px 0 0;}
+
+.row form .row { margin: 0 -6px; }
+.row form .row .column, .row form .row .columns { padding: 0 6px; }
+.row form .row.collapse { margin: 0; }
+.row form .row.collapse .column, .row form .row.collapse .columns { padding: 0; }
+
+label { font-size: 14px; color: #4d4d4d; cursor: pointer; display: block; font-weight: 500; margin-bottom: 3px; }
+label.right { float: none; text-align: right; }
+label.inline { line-height: 32px; margin: 0 0 12px 0; }
+
+.prefix, .postfix { display: block; position: relative; z-index: 2; text-align: center; width: 100%; padding-top: 0; padding-bottom: 0; height: 32px; line-height: 31px; }
+
+a.button.prefix, a.button.postfix { padding-left: 0; padding-right: 0; text-align: center; }
+
+span.prefix, span.postfix { background: #f2f2f2; border: 1px solid #cccccc; }
+
+.prefix { left: 2px; -moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -moz-border-radius-bottomleft: 2px; -webkit-border-bottom-left-radius: 2px; border-bottom-left-radius: 2px; overflow: hidden; }
+
+.postfix { right: 2px; -moz-border-radius-topright: 2px; -webkit-border-top-right-radius: 2px; border-top-right-radius: 2px; -moz-border-radius-bottomright: 2px; -webkit-border-bottom-right-radius: 2px; border-bottom-right-radius: 2px; }
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea { background-color: white; font-family: inherit; border: 1px solid #cccccc; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.75); display: block; font-size: 14px; margin: 0 0 12px 0; padding: 1px 4px; height: 23px; width: 100%; }
+input[type="text"].oversize, input[type="password"].oversize, input[type="date"].oversize, input[type="datetime"].oversize, input[type="email"].oversize, input[type="number"].oversize, input[type="search"].oversize, input[type="tel"].oversize, input[type="time"].oversize, input[type="url"].oversize, textarea.oversize { font-size: 17px; padding: 4px 6px; }
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus { background: #fafafa; border-color: #b3b3b3; }
+input[type="text"][disabled], input[type="password"][disabled], input[type="date"][disabled], input[type="datetime"][disabled], input[type="email"][disabled], input[type="number"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="time"][disabled], input[type="url"][disabled], textarea[disabled] { background-color: #ddd; }
+
+textarea { height: auto; }
+
+select { width: 100%; }
+
+
+/* Footer ---------------------- */
+
+.footer { color:#dadada; font-size:14px; padding-top: 40px; padding-bottom: 20px; }
+
+
+/* Pagination  ---------------------- */
+
+nav.pagination{text-align: center; padding:10px; font-size:14px; text-transform: uppercase; color: #e8e8e8;}
+
+
+/* Coin Widget  ---------------------- */
+
+.COINWIDGETCOM_CONTAINER > span {padding: 6px 18px !important;font-family: "Roboto Slab";font-size: 16px !important;display:inline !important;}
+
+.COINWIDGETCOM_CONTAINER > a > span {margin: 0px 8px !important;color: #494846 !important;font-size: 12px;text-shadow: none !important;font-weight: bold !important;font-family: "Roboto Slab";letter-spacing: 1px;}
+
+.COINWIDGETCOM_CONTAINER > a { 	height: 39px !important;width: 110px;padding: 10px !important;	border-radius: 5px !important;	text-transform: uppercase;}
+
+/* ---------------------- */
+
+@media only screen and (max-width: 767px) { 
+h1.logo {padding-bottom: 9px}
+.logo {margin:0 auto; text-align:center;}
+.info h3{ text-align:center; }
+.day, .month { text-align:center;}
+.row.sidebar {padding:0 15px}
+}
