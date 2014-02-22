@@ -37,6 +37,8 @@ iframe {margin: 10px 0 15px; border:0; width:100%;}
 .top {width: 100%;background: #f8b526;padding: 0;height: 6px;}
 
 /* Lists ---------------------- */
+ul {color: #34495e;font-family: "Roboto Slab";font-size: 15px;margin: 22px 0;}
+li {margin: 10px 0;}
 ul.social { display:none; list-style: none; padding: 0; margin: 0 auto; text-align: center;}
 ul.social li { float:left; display:inline; padding: 4px 10px; border-right: 1px solid #E4E5E7}
 ul.social li:first-child { padding-left: 0; }
@@ -104,6 +106,9 @@ p.written {font-size: 14px; text-transform: uppercase; color: #7f8c8d; font-weig
 .maincontent blockquote p {font-family: 'Roboto Slab', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; font-size:16px; margin-bottom:30px; color: #bdc3c7; font-weight:400; border-left:none;}
 .featured blockquote {display: none;}
 
+/* Code ---------------------- */
+
+pre {padding: 15px;margin-bottom: 14px;background-color: #f7f7f9;border: 1px solid #e1e1e8;border-radius: 4px;word-break: break-all;word-wrap: break-word;color: #34495e;}
 
 /* Sidebar  ---------------------- */
 
