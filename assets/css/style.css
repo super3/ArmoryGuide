@@ -49,7 +49,7 @@ h1.logo { font-size: 58px; padding: 40px 0 0; font-weight: 700; color: #34495e; 
 .logo-link { text-decoration:none !important;}
 p.motto { font-size: 17px; font-weight:400; color: #34495e; font-family: "Roboto Slab"; margin-bottom:40px; }
 
-.header { background-image: url(../images/header.jpg) !important; background-position:center center;}
+.header { background-image: url(../images/header.jpg) !important; background-position:center center; margin-top:35px;}
  
 
 /* Post ---------------------- */
